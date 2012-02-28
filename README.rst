@@ -36,8 +36,8 @@ README
 
  #. まずこのリポジトリとvundleをクローンする::
 
-    git clone https://github.com/cynipe/vim-quick-start.git ~/dotfiles/vim
-    git clone https://github.com/gmarik/vundle.git ~/dotfiles/vim/.vim/bundle/vundle
+      git clone https://github.com/cynipe/vim-quick-start.git ~/dotfiles/vim
+      git clone https://github.com/gmarik/vundle.git ~/dotfiles/vim/.vim/bundle/vundle
 
  #. OS毎に後述の方法でシンボリックリンク等を貼る
  #. GVimを起動し、エラーは無視して:BundleInstallを実行
