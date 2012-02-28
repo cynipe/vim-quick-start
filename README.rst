@@ -5,14 +5,31 @@ README
 入っているプラグイン
 ====================
 
-:gmarik/vundle:           Plugin管理
-:Shougo/unite.vim:        色々なコマンドを統合するプラグイン
-:Shougo/neocomplcache:    補完Plugin
-:h1mesuke/unite-outline:  ファイルアウトライン表示Plugin
-:scrooloose/nerdtree:     EclipseのPackage Explore的にディレクトリを表示してくれるPlugin
-:tpope/vim-fugitive:      Git連携Plugin
-:vim-coffee-script:       CoffeeScript用Plugin
-:Lokaltog/vim-powerline:  ステータスラインをカッコよくする
+.. list-table::
+  :stub-columns: 1
+
+  * - gmarik/vundle
+    - Plugin管理
+
+  * - Shougo/unite.vim
+    - 色々なコマンドを統合するプラグイン
+
+  * - Shougo/neocomplcache
+    - 補完Plugin
+
+  * - h1mesuke/unite-outline
+    - ファイルアウトライン表示Plugin
+  * - scrooloose/nerdtree
+    - EclipseのPackage Explore的にディレクトリを表示してくれるPlugin
+
+  * - tpope/vim-fugitive
+    - Git連携Plugin
+
+  * - vim-coffee-script
+    - CoffeeScript用Plugin
+
+  * - Lokaltog/vim-powerline
+    - ステータスラインをカッコよくする
 
 インストール方法
 ================
