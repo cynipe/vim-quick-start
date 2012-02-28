@@ -1,0 +1,14 @@
+"-------------------------------------------------------------------------------
+" 編集関連 Edit
+"-------------------------------------------------------------------------------
+
+" insertモードを抜けるとIMEオフ
+set noimdisable
+set iminsert=0 imsearch=0
+set noimcmdline
+inoremap <silent> <ESC> <ESC>:set iminsert=0<Return>
+
+" 行末の空白を除去する
+nnoremap <C-x> :%s/\s\+$//ge<Return>
+" tabをスペースに変換する
+nnoremap <C-z> * :%s/\t/  /ge<Return>

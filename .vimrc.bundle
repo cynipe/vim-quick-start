@@ -1,0 +1,23 @@
+set nocompatible
+filetype plugin indent off
+
+if has('vim_starting')
+  if has('win32') || has('win64')
+    set runtimepath& runtimepath+=~/_vimfiles/bundle/vundle
+    call neobundle#rc(expand('~/_vimfiles/bundle'))
+  else
+    set runtimepath& runtimepath+=~/.vim/bundle/vundle
+    call neobundle#rc(expand('~/.vim/bundle'))
+  endif
+endif
+
+Bundle 'gmarik/vundle'                     " Plugin管理
+Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/neocomplcache'              " 補完Plugin
+Bundle 'h1mesuke/unite-outline'            " ファイルアウトライン表示Plugin
+Bundle 'scrooloose/nerdtree'               " EclipseのPackage Explore的にディレクトリを表示してくれるPlugin
+Bundle 'tpope/vim-fugitive'                " Git連携Plugin
+Bundle 'vim-coffee-script'                 " CoffeeScript用Plugin
+Bundle 'Lokaltog/vim-powerline'            " ステータスラインをカッコよくする
+
+filetype plugin indent on
